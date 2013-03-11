@@ -1,0 +1,55 @@
+=head1 NAME
+
+MTObjectImporter - Import MT Object by any format.
+
+=head1 VERSION
+
+0.1
+
+=head1 INSTALL
+
+plugins/MTObjectImporter to /path/to/mt/plugins/
+
+tools/mt-object-importer to /path/to/mt/tools/
+
+=head1 SYNOPSIS
+
+  tools/mt-object-importer
+    require:
+      --file <path>        path to import file
+      --format <format>    format of import file
+                             - yaml
+                             - json
+                             - csv
+                             - tsv
+                             - or others...
+      --object <object>    kind of mt object
+                             - entry
+                             - page
+                             - author
+                             - or others...
+
+    optional:
+      --sleep <sec>        number of second while import next object
+      --usage              print usage for mt-object-importer
+      --help               it's me!
+
+=head1 DESCRIPTION
+
+TODO
+
+=head1 AUTHOR
+
+HIGASHI Taiju <higashi@taiju.info>
+
+=head1 COPYRIGHT
+
+HIGASHI Taiju 2013-
+
+=head1 LICENSE
+
+This software is licensed under the same terms as Perl itself.
+
+=head1 SEE ALSO
+
+L<MTObjectImporter>

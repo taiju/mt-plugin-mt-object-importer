@@ -1,0 +1,3 @@
+id,blog_id,title,text,author_id,status
+1,1,Title of updated by csv,Body of updated by csv,2,1
+,1,Title of added by csv,Body of added by csv,2,1

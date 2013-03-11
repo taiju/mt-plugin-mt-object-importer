@@ -1,0 +1,15 @@
+[{
+    "id": 1,
+    "blog_id": 1,
+    "title": "Title of updated by json",
+    "text": "Body of updated by json",
+    "author_id": 2,
+    "status": 1
+},
+{
+    "blog_id": "1",
+    "title": "Title of added by json",
+    "text": "Body of added by json",
+    "author_id": 2,
+    "status": 1
+}]

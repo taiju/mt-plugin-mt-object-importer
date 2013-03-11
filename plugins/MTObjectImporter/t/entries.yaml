@@ -1,0 +1,13 @@
+-
+  id : 1
+  blog_id: 1
+  title: Title of updated by yaml
+  text: Body of updated by yaml
+  author_id: 2
+  status: 1
+-
+  blog_id: 1
+  title: Title of added by yaml
+  text: Body of added by yaml
+  author_id: 2
+  status: 1
