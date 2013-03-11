@@ -21,7 +21,7 @@ sub _import {
     $mt_object->set_values($obj);
     $mt_object->save or die "Saving failed: ", $mt_object->errstr;
     $self->log($mt_object);
-    #sleep $self->sleep;
+    sleep $self->sleep if $self->sleep;
 }
 
 sub get_instance {
