@@ -75,6 +75,14 @@ Return this object instance.
 
 Output object import log.
 
+=head1 HOW TO ADD PLUGIN
+
+You can add object plugin of MTObjectImporter.
+
+Place the your plugin file in /path/to/mt/plugins/MTObjectImporter/lib/MTObjectImporter/Object such as Foo.pm.
+
+Foo.pm must inherit MTObjectImporter::Object, and imprements new method with initial object settings.
+
 =head1 AUTHOR
 
 HIGASHI Taiju <higashi@taiju.info>
@@ -89,4 +97,4 @@ This software is licensed under the same terms as Perl itself.
 
 =head1 SEE ALSO
 
-L<MT::Object>, L<MTObjectImporter::Object::Entry>, L<MTObjectImporter::Object::Page>
+L<MT::Object>, L<MTObjectImporter::Object::Entry>, L<MTObjectImporter::Object::Page> L<MTObjectImporter::Object::Author>
