@@ -8,9 +8,8 @@ MTObjectImporter - Import MT Object by any format.
 
 =head1 INSTALL
 
-plugins/MTObjectImporter to /path/to/mt/plugins/
-
-tools/mt-object-importer to /path/to/mt/tools/
+Copy plugins/MTObjectImporter to /path/to/mt/plugins/
+Copy tools/mt-object-importer to /path/to/mt/tools/
 
 =head1 SYNOPSIS
 
